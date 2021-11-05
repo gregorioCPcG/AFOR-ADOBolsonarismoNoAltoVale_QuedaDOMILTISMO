@@ -88,6 +88,13 @@ huxreg(modelo_14, modelo_18, stars = c(`*` = 0.1, `**` = 0.05,
 coefplot(modelo_14, intercept = F)
 coefplot(modelo_18, intercept = F)
 
+b5 <- base %>% 
+  dplyr::select(CIDADE, diferenca) %>% 
+  arrange(desc(diferenca))
+b5 %>%
+  kbl(caption = "Municipios do Alto Vale comparados a SC em 2018") %>%
+  kable_classic(full_width = F, html_font = "Garamond")
+
 
 # a parte mais importante - uma variável de cada poder político
 modelo66 <- lm(diferenca ~  Bolsonaro2018, data = base)
