@@ -12,3 +12,6 @@ já sobre o efeito de bolsonarismo somente em rio do sul eu publiquei aqui: http
 
 sobre as determinantes do voto no Alto vale, que tem análises que se imiscuem com essas também pode interessar: https://sites.google.com/view/gregoriosilva/curtas/determinantes-do-voto-no-alto-vale-do-itajaí
 
+
+Milton Hobus é o principal líder político da região e portanto foi verificado como variável indepentente para ver se explica se o municipio do alto vale teve ou não maior média do que a votação geral do estado.
+Também é analisado como variável explicativa sua votação em 2018 (altamente em queda)
