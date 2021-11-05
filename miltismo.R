@@ -88,6 +88,13 @@ huxreg(modelo_14, modelo_18, stars = c(`*` = 0.1, `**` = 0.05,
 coefplot(modelo_14, intercept = F)
 coefplot(modelo_18, intercept = F)
 
+modelo66 <- lm(diferenca ~  Bolsonaro2018, data = base)
+summary(modelo3)
+modelo64 <- lm(diferenca ~ Bolsonaro2018 + pop + MDB_pref + pt_ganhou_2014 + Neves13, data = base)
+summary(modelo4)
 
+huxreg(modelo66, modelo64, stars = c(`*` = 0.1, `**` = 0.05,
+                                                     `***` = 0.01), statistics = c("N. obs." = "nobs", "R2" = "r.squared",
+                                                                                   "AIC" = "AIC"))
 
 
