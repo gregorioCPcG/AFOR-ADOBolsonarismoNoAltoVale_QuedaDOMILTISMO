@@ -3,3 +3,7 @@
 
 
 A análise do tópico 2 deve ser feita depois do tópico um
+
+as conclusões basicamente encontram-se nas imagens
+
+ainda nao publiquei em lugar nenhum
